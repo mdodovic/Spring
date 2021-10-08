@@ -1,4 +1,4 @@
-package com.mdodovic.sprint;
+package com.mdodovic.spring;
 
 public interface Coach {
 
