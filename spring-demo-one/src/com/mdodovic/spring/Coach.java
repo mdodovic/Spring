@@ -2,6 +2,6 @@ package com.mdodovic.spring;
 
 public interface Coach {
 
-	public abstract String gatDailyWorkout();
+	public abstract String getDailyWorkout();
 	
 }
