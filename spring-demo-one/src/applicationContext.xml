@@ -9,9 +9,9 @@
 
     <!-- Define your beans here -->
     
-    <bean id="myCoach" 
-    	class="com.mdodovic.spring.TrackCoach">    
-    </bean>
+    <bean id="myCoach"
+ 		class="com.mdodovic.spring.BaseballCoach">	 		
+ 	</bean>
     
 </beans>
 
