@@ -9,8 +9,15 @@
 
     <!-- Define your beans here -->
     
+    <bean id="myFortune"
+    	class="com.mdodovic.spring.HappyFortuneService"
+    ></bean>
+    
     <bean id="myCoach"
  		class="com.mdodovic.spring.TennisCoach">	 		
+ 		
+ 		<constructor-arg ref="myFortune"></constructor-arg>
+ 		
  	</bean>
     
 </beans>
