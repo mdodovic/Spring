@@ -7,5 +7,7 @@ import com.mdodovic.entity.Customer;
 public interface CustomerService {
 
 	public List<Customer> getCustomers();
+
+	public void saveCustomer(Customer customer);
 	
 }
